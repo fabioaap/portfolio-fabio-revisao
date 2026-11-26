@@ -1,0 +1,7 @@
+/* Ajustes de leitura para telas estreitas. */
+@media(max-width:380px){
+ .nav{gap:6px}.nav .brand{font-size:13px;gap:5px;letter-spacing:-.04em}.nav .brand span{margin-left:-5px}.nav .brand-avatar{width:27px;height:27px}.nav nav,.about-page .nav nav{gap:7px}.nav nav>a{font-size:9px}.nav .nav-contact{font-size:9px;padding:8px 5px}.nav .nav-contact span{margin-left:2px}
+ h1,h2,h3{overflow-wrap:anywhere}
+}
+@media(max-width:380px){.next a{font-size:clamp(44px,13vw,62px);gap:12px}.next a span{flex:none}}
+.motion-toggle{display:block;margin-top:35px;border:1px solid #a5a8ae;background:#0a0e20bd;color:#f3f1eb;padding:10px 14px;font:inherit;font-size:12px;cursor:pointer}.motion-toggle[hidden]{display:none}.media-description{margin:15px 0 25px;font-size:14px;line-height:1.6}.media-description summary{cursor:pointer;text-decoration:underline;text-underline-offset:4px}.media-description p{max-width:780px;margin:15px 0 0}.ads-video-block .media-description{grid-column:2}@media(max-width:700px){.ads-video-block .media-description{grid-column:1}}

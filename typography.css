@@ -1,0 +1,20 @@
+/* Sistema editorial: Instrument Sans para leitura e títulos, Serif para ênfase. */
+body{font-size:16px;line-height:1.5;letter-spacing:-.018em}
+h1,h2,h3{font-weight:500;letter-spacing:-.045em}
+h1{line-height:.96}
+h2{line-height:1.04}
+h1 em,h2 em{font-weight:400;letter-spacing:-.025em}
+.home-hero h1,.dio-hero h1,.about-hero h1{font-size:clamp(64px,8.7vw,138px);line-height:.96;letter-spacing:-.055em}
+.home-hero h1 em,.dio-hero h1 em,.about-hero h1 em{letter-spacing:-.03em}
+.home-hero-bottom p,.hero-bottom-dio p,.about-hero-grid>div>p:last-child{font-size:clamp(20px,2.05vw,28px);line-height:1.38;letter-spacing:-.025em;max-width:620px}
+.work-intro h2,.private-heading h2,.home-about h2,.home-contact h2,.process-heading h2,.about-split h2,.about-contact h2,.dio-section h2,.journey h2,.decision h2{font-size:clamp(52px,6.3vw,94px);line-height:1.02;letter-spacing:-.05em}
+.about-lead,.large-copy,.home-about-grid>div>p:not(.about-ps){font-size:clamp(24px,2.55vw,36px)!important;line-height:1.38!important;letter-spacing:-.03em}
+.overview-copy p:not(.large-copy),.outcome p:not(.large-copy),.about-split>div+div p:not(.about-lead),.decision-heading>p:last-child{font-size:clamp(17px,1.3vw,19px);line-height:1.65;letter-spacing:-.012em}
+.work-copy h3{font-size:clamp(32px,3.7vw,54px);letter-spacing:-.045em}
+.work-copy p,.practice-list p,.process-steps p{line-height:1.6}
+.home-label,.overline,.eyebrow,.work-meta,.hero-baseline,.hero-topline>span{font-size:11px;letter-spacing:.12em;line-height:1.45}
+.work-link,.inline-link,.home-hero-bottom a{font-size:14px;letter-spacing:-.01em}
+@media(max-width:700px){.home-hero h1,.dio-hero h1,.about-hero h1{font-size:clamp(50px,11.8vw,76px);line-height:1;letter-spacing:-.055em;overflow-wrap:normal}.home-hero-bottom p,.hero-bottom-dio p,.about-hero-grid>div>p:last-child{font-size:19px;line-height:1.48}.work-intro h2,.private-heading h2,.home-about h2,.home-contact h2,.process-heading h2,.about-split h2,.about-contact h2,.dio-section h2,.journey h2,.decision h2{font-size:clamp(43px,9.5vw,64px);line-height:1.04}.about-lead,.large-copy,.home-about-grid>div>p:not(.about-ps){font-size:24px!important;line-height:1.42!important}.home-label,.overline,.eyebrow,.work-meta,.hero-baseline,.hero-topline>span{font-size:10px;letter-spacing:.1em}.work-copy h3{font-size:36px}}
+/* Os destaques mantêm a mesma família e peso do título; a cor faz a distinção. */
+em,h1 em,h2 em,.outcome blockquote,.wallet-takeaway{font-family:'Instrument Sans',Arial,sans-serif;font-style:normal}
+h1 em,h2 em{font-weight:inherit;letter-spacing:inherit}

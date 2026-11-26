@@ -1,0 +1,27 @@
+/* Acentos: tons profundos em superfícies claras e tons luminosos em superfícies escuras. */
+:root{--accent-home-dark:#526b5a;--accent-home-light:#c4d7c9;--accent-dio-dark:#675177;--accent-dio-light:#d0b6ea;--accent-tim-dark:#416287;--accent-tim-light:#a7caff;--accent-wallet-dark:#694e75;--accent-wallet-light:#dab9ee;--accent-ads-dark:#38684c;--accent-ads-light:#a3e4b7}
+.home-hero h1 em{color:var(--accent-home-light)}
+.home-contact h2 em{color:var(--accent-home-light)}
+.home-process h2 em{color:#c9b9e3}
+.dio .dio-hero h1 em,.dio .journey h2 em,.dio .decision-two h2 em{color:var(--accent-dio-light)}
+.dio .overview h2 em,.dio .research h2 em,.dio .decision-one h2 em,.dio .outcome h2 em{color:var(--accent-dio-dark)}
+.dio .research-grid span{color:var(--accent-dio-dark)}
+.tim .dio-hero h1 em,.tim .journey h2 em,.tim .decision-two h2 em{color:var(--accent-tim-light)}
+.tim .overview h2 em,.tim .research h2 em,.tim .decision-one h2 em,.tim .outcome h2 em{color:var(--accent-tim-dark)}
+.tim .research-grid span{color:var(--accent-tim-dark)}
+.wallet .dio-hero h1 em,.wallet .journey h2 em,.wallet .decision-two h2 em{color:var(--accent-wallet-light)}
+.wallet .overview h2 em,.wallet .research h2 em,.wallet .decision-one h2 em,.wallet .wallet-withdraw h2 em,.wallet .outcome h2 em{color:var(--accent-wallet-dark)}
+.wallet .research-grid span{color:var(--accent-wallet-dark)}
+.ads .dio-hero h1 em,.ads .journey h2 em,.ads .decision-two h2 em,.ads .ads-agent h2 em{color:var(--accent-ads-light)}
+.ads .overview h2 em,.ads .research h2 em,.ads .decision-one h2 em,.ads .outcome h2 em{color:var(--accent-ads-dark)}
+.ads .research-grid span{color:var(--accent-ads-dark)}
+
+/* Cinza neutro nos destaques sobre superfícies claras. */
+.work-intro h2 em,.private-heading h2 em,.home-about h2 em,.dio .overview h2 em,.dio .research h2 em,.dio .decision-one h2 em,.dio .outcome h2 em,.tim .overview h2 em,.tim .research h2 em,.tim .decision-one h2 em,.tim .outcome h2 em,.wallet .overview h2 em,.wallet .research h2 em,.wallet .decision-one h2 em,.wallet .wallet-withdraw h2 em,.wallet .outcome h2 em,.ads .overview h2 em,.ads .research h2 em,.ads .decision-one h2 em,.ads .outcome h2 em{color:#6f6f6f}
+/* Cinza claro neutro para títulos em superfícies escuras. */
+.home-hero h1 em,.home-process h2 em,.home-contact h2 em,.dio .dio-hero h1 em,.dio .journey h2 em,.dio .decision-two h2 em,.tim .dio-hero h1 em,.tim .journey h2 em,.tim .decision-two h2 em,.wallet .dio-hero h1 em,.wallet .journey h2 em,.wallet .decision-two h2 em,.ads .dio-hero h1 em,.ads .journey h2 em,.ads .decision-two h2 em,.ads .ads-agent h2 em{color:#c6c6c6}
+/* Página Sobre: mesmos neutros aplicados à home e aos cases. */
+.about-page .about-hero h1 em,.about-page .about-practice h2 em,.about-page .about-contact h2 em{color:#c6c6c6}
+.about-page .about-story h2 em,.about-page .about-details h2 em,.about-page .about-studio h2 em{color:#6f6f6f}
+
+.confidential h1 em{color:#c6c6c6}
